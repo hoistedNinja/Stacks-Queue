@@ -1,0 +1,31 @@
+Author: Mahesh Wosti
+CSIS 252
+Assignment 03
+
+The program accepts infix expression from the user ,the does following
+	1. converts infix to postfix expression
+	2. then evaluate the postfix expression
+
+file		function			description
+------		----------			-----------------------
+main.cpp	main				main function includes user input
+
+stackType.h 	template function		includes implementation of stack
+
+queue.h		template function		includes implementation of queue
+
+Token.h		header file 			includes declarations of token class
+
+Token.cpp	Token function			includes description of token class
+
+function.h	declaration			includes major fuctions for converting infix to postfix and evaluation part
+
+function.cpp	function			descriptions of all functions used in program
+
+print.h		declartion			declares output functions
+
+print.cpp	Print				description of output functions of program
+
+
+
+Program runs perfect. Use of parenthesis in long expression helps produce correct result
